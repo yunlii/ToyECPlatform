@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/community/discover/index",
+    "pages/community/follows/follows",
+    "pages/wishlist/index",
+    "pages/profile/profile",
+    "pages/post/post",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#333333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "社区", 
+        "iconPath": "./resources/imgs/tabbar/community_off@3x.png",
+        "selectedIconPath": "./resources/imgs/tabbar/community_on@3x.png",
+        "pagePath": "pages/community/discover/index"
+      },
+      {
+        "text": "商城", 
+        "iconPath": "./resources/imgs/tabbar/mall_off@3x.png",
+        "selectedIconPath": "./resources/imgs/tabbar/mall_on@3x.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "./resources/imgs/tabbar/post@3x.png",
+        "pagePath": "pages/post/post"
+      },
+      {
+        "text": "心愿单",
+        "iconPath": "./resources/imgs/tabbar/wishlist_off@3x.png",
+        "selectedIconPath": "./resources/imgs/tabbar/wishlist_on@3x.png",
+        "pagePath": "pages/wishlist/index"
+      },
+      {
+        "text": "我的",
+        "iconPath": "./resources/imgs/tabbar/profile_off@3x.png",
+        "selectedIconPath": "./resources/imgs/tabbar/profile_on@3x.png",
+        "pagePath": "pages/profile/profile"
+      }
+    ]
+  }
+}

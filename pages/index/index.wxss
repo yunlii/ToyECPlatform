@@ -1,0 +1,32 @@
+/**index.wxss**/
+.navigationbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigationbar > view {
+  position: relative;
+}
+.navigationbar view > text {
+  font-size: 16px;
+  color: #999999;
+}
+.navigationbar view .search-image {
+  width: 90rpx;
+  height: 56rpx;
+}
+.navigationbar .selected-item > text {
+  color: #333333;
+  font-weight: 700;
+}
+.navigationbar .selected-item > image {
+  width: 64rpx;
+  height: 12rpx;
+  position: absolute;
+  top: 36rpx;
+  left: 0;
+}
+
+
+

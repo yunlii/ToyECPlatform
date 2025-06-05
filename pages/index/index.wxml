@@ -1,0 +1,14 @@
+<!-- index.wxml -->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <view class="navigationbar">
+      <view class="selected-item" bindtap="testclick">
+        <text>推荐</text>
+        <image src="./../../resources/imgs/mall/navigationbar/retangle@2x.png"/>
+      </view>
+      <view><text>少儿益智</text></view>
+      <view><text>玩乐达人</text></view>
+      <view><image class="search-image" src="./../../resources/imgs/mall/navigationbar/search@2x.png" alt=""/></view>
+    </view>
+  </view>
+</scroll-view>
