@@ -1,7 +1,9 @@
 // index.js
 Page({
-  testclick: function() {
-    // var navigationBar = document.getElementsByClassName("navigationBar");
-    console.log(1);
+  data: {
+    selectStatus: 1,
+  },
+  testclick: function(Event) {
+    this.setData({selectStatus: Event.currentTarget.dataset.status});
   }
 })

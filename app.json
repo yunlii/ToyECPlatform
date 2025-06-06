@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/index/recommend/recommend",
+    "pages/index/educationaltoy/educationaltoy",
+    "pages/index/playexpert/playexpert",
     "pages/community/discover/index",
     "pages/community/follows/follows",
     "pages/wishlist/index",

@@ -1,5 +1,8 @@
 {
   "usingComponents": {
+    "recommend": "./recommend/recommend",
+    "educationaltoy": "./educationaltoy/educationaltoy",
+    "playexpert": "./playexpert/playexpert"
   },
   "navigationBarTitleText" : "商城"
 }
