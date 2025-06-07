@@ -1,4 +1,4 @@
 /**app.wxss**/
-.container {
-  margin: 20rpx 32rpx;
+page {
+    background-color: #F4F4F4;
 }

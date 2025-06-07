@@ -1,14 +1,15 @@
 <!-- index.wxml -->
 <view class="shoppingmall">
   <view class="container">
+  <view class="page-section navigationbar-container">
     <view class="navigationbar">
       <view class="{{selectStatus == 1 ? 'selected-item' : ''}}" data-status="1" bindtap="testclick">
         <text>推荐</text>
-        <image hidden="{{selectStatus != 1}}" src="./../../resources/imgs/mall/navigationbar/retangle@2x.png"/>
+        <image hidden="{{selectStatus != 1}}" src="./../../resources/imgs/mall/navigationbar/retangle@2x.png" mode="aspectFill"/>
       </view>
       <view class="{{selectStatus == 2 ? 'selected-item' : ''}}" data-status="2" bindtap="testclick">
         <text>少儿益智</text>
-        <image hidden="{{selectStatus != 2}}" src="./../../resources/imgs/mall/navigationbar/retangle@2x.png"/>
+        <image hidden="{{selectStatus != 2}}" src="./../../resources/imgs/mall/navigationbar/retangle@2x.png" mode="aspectFill"/>
       </view>
       <view class="{{selectStatus == 3 ? 'selected-item' : ''}}" data-status="3" bindtap="testclick">
         <text>玩乐达人</text>
@@ -18,10 +19,15 @@
         <image class="search-image" src="./../../resources/imgs/mall/navigationbar/search@2x.png" alt=""/>
       </view>
     </view>
-  <view>
+  </view>
+  <view class="page-section">
+  <scroll-view>
+    <view class="sub-pages">
     <view hidden="{{selectStatus != 1}}"><recommend /></view>
     <view hidden="{{selectStatus != 2}}"><educationaltoy /></view>
     <view hidden="{{selectStatus != 3}}"><playexpert /></view>
+  </view>
+</scroll-view>
   </view>
   </view>
 </view>

@@ -1,4 +1,45 @@
 <!--pages/index/recommend/recommend.wxml-->
-<view >
-	
+<view class="sub-page">
+ <view class="sub-page-body">
+    <view class="banner">
+		  <swiper>
+		    <swiper-item>
+			  	<view class="swiper-item">
+					  <image src="../../../resources/imgs/mall/banner/recommend-banner@2x.png"/>
+					</view>
+			  </swiper-item>
+				<swiper-item>
+				  <view class="swiper-item">
+					  <image src="../../../resources/imgs/mall/banner/educationaltoy-banner@2x.png"/>
+					</view>
+		    </swiper-item>
+		    <swiper-item>
+				  <view class="swiper-item">
+					  <image src="../../../resources/imgs/mall/banner/playexpert-banner@2x.png"/>
+					</view>
+			  </swiper-item>
+		  </swiper>
+	  </view>
+		<view class="navigation-icon">
+		<view>
+			<image src="../../../resources/imgs/mall/navigationicon/news@2x.png" mode=""/>
+			<text>新品预售</text>
+		</view>
+		<view>
+			<image src="../../../resources/imgs/mall/navigationicon/popularitylist@2x.png" mode=""/>
+			<text>人气榜单</text>
+		</view>
+		<view>
+			<image src="../../../resources/imgs/mall/navigationicon/secondhand@2x.png" mode=""/>
+			<text>二手专区</text>
+		</view>
+		<view>
+			<image src="../../../resources/imgs/mall/navigationicon/streaming@2x.png" mode=""/>
+			<text>直播热卖</text>
+		</view>
+		<view class="decorative-image">
+			<image src="../../../resources/imgs/mall/navigationicon/decorate@2x.png" mode="aspectFit"/>
+		</view>
+		</view>
+	</view>
 </view>
