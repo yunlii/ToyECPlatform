@@ -41,5 +41,57 @@
 			<image src="../../../resources/imgs/mall/navigationicon/decorate@2x.png" mode="aspectFit"/>
 		</view>
 		</view>
+		<view class="recommend-card">
+			<view class="recommend-card-title">
+				<text>新手专属礼包</text>
+			</view>
+			<view class="recommend-card-list"> 
+			  <view class="product-info card-one">
+				<view class="product-introduce">
+					<text>奔跑的超级马里奥玩偶套装</text>
+					<view class="product-price">
+						<text class="discounted-price">￥40</text>
+						<text class="price">￥120</text>
+					</view>
+					<view class="discounts">
+						<text>新人立减80</text>
+					</view>
+				</view>
+				<view class="product-image">
+					<image src="../../../resources/imgs/mall/products/Mario@2x.png" mode=""/>
+				</view>
+				</view>
+				<view class="product-info card-two">
+			  </view>
+			  <view class="product-info card-three">
+			  </view>
+		  </view>
+		</view>
+		<view class="recommend-card">
+			<view class="card-top">
+				<view class="card-title">
+					<text>限时秒杀</text>
+				</view>
+				<view class="count-down">
+					<view class="left-text">12</view>
+					<view class="middle-text">:</view>
+					<view class="right-text">40</view>
+				</view>
+			</view>
+			<view class="product-list">
+				<view class="product-item">
+					<view>
+						<image src="../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
+					</view>
+					<view>
+						<text>益智屋</text>
+					</view>
+					<view>
+						<text>￥189</text>
+						<text>￥200</text>
+					</view>
+				</view>
+			</view>
+		</view>
 	</view>
 </view>
