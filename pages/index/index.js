@@ -5,5 +5,6 @@ Page({
   },
   testclick: function(Event) {
     this.setData({selectStatus: Event.currentTarget.dataset.status});
+    console.log(wx.getWindowInfo());
   }
 })

@@ -138,6 +138,45 @@
 }
 
 
-.recommend-card .card-top .count-down {
+.recommend-card .card-top {
+	width: 100%;
+	padding: 32rpx 0 0 32rpx;
 	display: flex;
+	justify-content: left;
+	box-sizing: border-box;
+}
+.recommend-card .card-top .card-title {
+	font-size: 16px;
+	font-weight: 700;
+}
+.recommend-card .card-top .count-down {
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 44rpx;
+	margin-left: 20rpx;
+	display: flex;
+}
+.recommend-card .card-top .count-down .left-text {
+	width: 40rpx;
+	height: 44rpx;
+	border-radius: 4px;
+	background-color: #FEC45B;
+	margin-right: 14rpx;
+}
+.recommend-card .card-top .count-down .middle-text {
+  margin-right: 14rpx;
+}
+.recommend-card .card-top .count-down .right-text {
+	width: 40rpx;
+	height: 44rpx;
+	border-radius: 4px;
+	background-color: #FEC45B;
+}
+.recommend-card .product-list {
+	margin-top: 24rpx;
+}
+.recommend-card .product-list .product-item image {
+	width: 120rpx;
+	height: 120rpx;
 }

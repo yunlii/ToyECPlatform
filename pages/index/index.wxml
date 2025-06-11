@@ -21,13 +21,11 @@
     </view>
   </view>
   <view class="page-section">
-  <scroll-view>
-    <view class="sub-pages">
-    <view hidden="{{selectStatus != 1}}"><recommend /></view>
-    <view hidden="{{selectStatus != 2}}"><educationaltoy /></view>
-    <view hidden="{{selectStatus != 3}}"><playexpert /></view>
-  </view>
-</scroll-view>
+      <view class="sub-pages">
+        <view hidden="{{selectStatus != 1}}"><recommend /></view>
+        <view hidden="{{selectStatus != 2}}"><educationaltoy /></view>
+        <view hidden="{{selectStatus != 3}}"><playexpert /></view>
+      </view>
   </view>
   </view>
 </view>
