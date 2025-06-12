@@ -1,2 +1,7 @@
 <!--pages/index/playexpert/playexpert.wxml-->
-<text>333</text>
+<view class="container">
+  <view class="sub-page-body">
+    <view class="page-section">
+    </view>
+  </view>
+</view>

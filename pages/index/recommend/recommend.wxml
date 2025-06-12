@@ -79,19 +79,100 @@
 				</view>
 			</view>
 			<view class="product-list">
-				<view class="product-item">
+			  <scroll-view class="scroll-bar" scroll-x="true" enable-flex="true">
+			  	<view class="product-item">
 					<view>
 						<image src="../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
 					</view>
-					<view>
+					<view class="product-title">
 						<text>益智屋</text>
 					</view>
+					<view class="product-price">
+						<text class="discounted-price">￥189</text>
+						<text class="price">￥200</text>
+					</view>
+			  	</view>
+			  	<view class="product-item">
 					<view>
-						<text>￥189</text>
-						<text>￥200</text>
+						<image src="../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
+					</view>
+					<view class="product-title">
+						<text>益智屋</text>
+					</view>
+					<view class="product-price">
+						<text class="discounted-price">￥189</text>
+						<text class="price">￥200</text>
+					</view>
+			  	</view>
+			  	<view class="product-item">
+					<view>
+						<image src="../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
+					</view>
+					<view class="product-title">
+						<text>益智屋</text>
+					</view>
+					<view class="product-price">
+						<text class="discounted-price">￥189</text>
+						<text class="price">￥200</text>
+					</view>
+			  	</view>
+			  	<view class="product-item">
+					<view>
+						<image src="../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
+					</view>
+					<view class="product-title">
+						<text>益智屋</text>
+					</view>
+					<view class="product-price">
+						<text class="discounted-price">￥189</text>
+						<text class="price">￥200</text>
+					</view>
+			  	</view>
+		    </scroll-view>
+	    </view>
+		</view>
+		<view class="transition-line">
+		  <view class="left-line"></view>
+			<text class="line-text">猜你喜欢</text>
+			<view class="right-line"></view>
+		</view>
+		<view class="product-card-section">
+		  <view class="product-card-list">
+		    <view class="product-card">
+			<view class="product-image">
+				<image src="../../../resources/imgs/mall/products/buildingblock@2x.png" mode=""/>
+			</view>
+			<view>
+				<view><text>babycare洛伊积木城堡</text></view>
+				<view>
+					<view>
+						<text>￥149</text>
+						<text>￥245</text>
+					</view>
+					<view>
+						<text>已抢77件</text>
 					</view>
 				</view>
 			</view>
+		    </view>
+				<view class="product-card">
+			<view class="product-image">
+				<image src="../../../resources/imgs/mall/products/buildingblock@2x.png" mode=""/>
+			</view>
+			<view>
+				<view><text>babycare洛伊积木城堡</text></view>
+				<view>
+					<view>
+						<text>￥149</text>
+						<text>￥245</text>
+					</view>
+					<view>
+						<text>已抢77件</text>
+					</view>
+				</view>
+			</view>
+		    </view>
+	    </view>
 		</view>
 	</view>
 </view>
