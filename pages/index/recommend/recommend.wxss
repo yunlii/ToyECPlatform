@@ -23,6 +23,7 @@
 	height: 180rpx;
 	background-color: white;
 	border-radius: 4px;
+	box-shadow:  0px 4px 8px 0px rgba(0, 0, 0, 8%);
 	margin: 30rpx auto 0 auto;
 	position: relative;
 	display: flex;
@@ -58,6 +59,7 @@
 	margin: 26rpx auto 0 auto;
 	background-color: white;
 	border-radius: 4px;
+	box-shadow:  0px 4px 8px 0px rgba(0, 0, 0, 8%);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -233,22 +235,50 @@
 }
 
 .product-card-section .product-card-list {
+	width: 686rpx;
+	margin: 26rpx auto 0 auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .product-card-section .product-card-list .product-card {
 	width: 326rpx;
 	height: 514rpx;
 	border-radius: 4px;
-	box-shadow: black 1px 1px;
+	box-shadow:  0px 4px 8px 0px rgba(0, 0, 0, 8%);
 	background-color: white;
 	margin-bottom: 32rpx;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 .product-card-section .product-card-list .product-card .product-image image{
 	width: 326rpx;
 	height: 326rpx;
+}
+.product-card-section .product-card-list .product-card .product-info {
+	width: 100%;
+	font-size: 14px;
+	padding: 0 16rpx;
+	box-sizing: border-box;
+}
+.product-card-section .product-card-list .product-card .product-info .product-title {
+	white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-card-section .product-card-list .product-card .product-info .product-price {
+	margin-top: 16rpx;
+}
+.product-card-section .product-card-list .product-card .product-info .product-price .discounted-price{
+	color: #FFA911;
+}
+.product-card-section .product-card-list .product-card .product-info .product-price .price {
+	background-image: linear-gradient(to right, transparent 0% 10%, black 0% 100%);
+  background-size: 100% 1px;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.product-card-section .product-card-list .product-card .product-info .sold-out {
+	margin-top: 16rpx;
+}
+.product-card-section .product-card-list .product-card .product-info .sold-out text {
+	color: #999999;
 }

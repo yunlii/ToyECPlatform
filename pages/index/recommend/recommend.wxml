@@ -142,34 +142,30 @@
 			<view class="product-image">
 				<image src="../../../resources/imgs/mall/products/buildingblock@2x.png" mode=""/>
 			</view>
-			<view>
-				<view><text>babycare洛伊积木城堡</text></view>
-				<view>
-					<view>
-						<text>￥149</text>
-						<text>￥245</text>
+			<view class="product-info">
+				<view class="product-title"><text>babycare洛伊积木城堡</text></view>
+					<view class="product-price">
+						<text class="discounted-price">￥149</text>
+						<text class="price">￥245</text>
 					</view>
-					<view>
+					<view class="sold-out">
 						<text>已抢77件</text>
 					</view>
-				</view>
 			</view>
 		    </view>
-				<view class="product-card">
+        <view class="product-card">
 			<view class="product-image">
 				<image src="../../../resources/imgs/mall/products/buildingblock@2x.png" mode=""/>
 			</view>
-			<view>
-				<view><text>babycare洛伊积木城堡</text></view>
-				<view>
-					<view>
-						<text>￥149</text>
-						<text>￥245</text>
+			<view class="product-info">
+				<view class="product-title"><text>babycare洛伊积木城堡</text></view>
+					<view class="product-price">
+						<text class="discounted-price">￥149</text>
+						<text class="price">￥245</text>
 					</view>
-					<view>
+					<view class="sold-out">
 						<text>已抢77件</text>
 					</view>
-				</view>
 			</view>
 		    </view>
 	    </view>
