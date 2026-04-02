@@ -1,0 +1,227 @@
+<!--pages/community/community.wxml-->
+<view class="community">
+	<view class="container">
+	  <view class="page-body">
+		  <view class="page-section navigation-area">
+		  	<view class="navigation-bar">
+		  		<view class="left-area">
+					  <image src="../../resources/imgs/community/broadcast@2x.png" mode=""/>
+					</view>
+		  		<view class="middle-area">
+					  <view>关注</view>
+						<view class="selected_item">发现</view>
+						<view>杭州</view>
+					</view>
+		  		<view class="right-area">
+					  <image src="../../resources/imgs/community/search@2x.png" mode=""/>
+					</view>
+		  	</view>
+				<view class="filtration-bar">
+				  <scroll-view  scroll-x enable-flex show-scrollbar="{{false}}" enhanced>
+				  	<view class="selected_item"><text>推荐</text></view>
+				  	<view><text>拼图</text></view>
+				  	<view><text>积木</text></view>
+				  	<view><text>人偶</text></view>
+				  	<view><text>毛绒娃娃</text></view>
+				  	<view><text>毛绒玩具</text></view>
+						<view class="block-box"></view>
+				  </scroll-view>
+					  <view class="filtration-button">
+							<image src="../../resources/imgs/community/filtration@2x.png" mode=""/>
+						</view>
+				</view>
+		  </view>
+		  <view class="page-section card-area">
+			  <scroll-view enable-flex scroll-y show-scrollbar="{{false}}" enhanced >
+			  	<view class="products-card-list">
+			  		<view class="product-card">
+							<view class="image-area">
+						    <view class="product-image">
+			  			    <image src="../../resources/imgs/community/product2@2x.jpg" mode=""/>
+			  			  </view>
+								<view class="follow-like-box">
+									<view class="follow">	
+									  <view class="avatar-image"><image src="../../resources/imgs/profile/avatar@2x.png" mode=""/></view>
+										<view class="follow-button"><text>关注</text></view>
+									</view>
+                  <view class="like">
+										<view class="total-likes"><text>1928</text></view>
+										<view class="like-icon"><image src="../../resources/imgs/community/likeicon@2x.png" mode=""/></view>
+									</view>
+								</view>
+					    </view>
+			  			<view class="product-tag">
+			  			  <scroll-view scroll-x enable-flex show-scrollbar="{{false}}" enhanced>
+			  					<view><text>#乐高</text></view>
+									<view><text>#新玩具</text></view>
+									<view><text>#新玩的的的的的的的的的的的具</text></view>
+			  				</scroll-view>
+			  			</view>
+			  			<view class="product-tittle">
+			  				<text>为什么游乐出的这款游戏家长们很值得一买？</text>
+			  			</view>
+							<view class="interaction-area">
+								<view>
+									<image src="../../resources/imgs/community/commenticon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+								<view>
+									<image src="../../resources/imgs/community/smilingicon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+							</view>
+			  		</view>
+						<view class="product-card">
+							<view class="image-area">
+						    <view class="product-image">
+			  			    <image src="../../resources/imgs/community/product2@2x.jpg" mode=""/>
+			  			  </view>
+								<view class="follow-like-box">
+									<view class="follow">	
+									  <view class="avatar-image"><image src="../../resources/imgs/profile/avatar@2x.png" mode=""/></view>
+										<view class="follow-button"><text>关注</text></view>
+									</view>
+                  <view class="like">
+										<view class="total-likes"><text>1928</text></view>
+										<view class="like-icon"><image src="../../resources/imgs/community/likeicon@2x.png" mode=""/></view>
+									</view>
+								</view>
+					    </view>
+			  			<view class="product-tag">
+			  			  <scroll-view scroll-x enable-flex show-scrollbar="{{false}}" enhanced>
+			  					<view><text>#乐高</text></view>
+									<view><text>#新玩具</text></view>
+									<view><text>#新玩的的的的的的的的的的的具</text></view>
+			  				</scroll-view>
+			  			</view>
+			  			<view class="product-tittle">
+			  				<text>为什么游乐出的这款游戏家长们很值得一买？</text>
+			  			</view>
+							<view class="interaction-area">
+								<view>
+									<image src="../../resources/imgs/community/commenticon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+								<view>
+									<image src="../../resources/imgs/community/smilingicon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+							</view>
+			  		</view>
+						<view class="product-card">
+							<view class="image-area">
+						    <view class="product-image">
+			  			    <image src="../../resources/imgs/community/product2@2x.jpg" mode=""/>
+			  			  </view>
+								<view class="follow-like-box">
+									<view class="follow">	
+									  <view class="avatar-image"><image src="../../resources/imgs/profile/avatar@2x.png" mode=""/></view>
+										<view class="follow-button"><text>关注</text></view>
+									</view>
+                  <view class="like">
+										<view class="total-likes"><text>1928</text></view>
+										<view class="like-icon"><image src="../../resources/imgs/community/likeicon@2x.png" mode=""/></view>
+									</view>
+								</view>
+					    </view>
+			  			<view class="product-tag">
+			  			  <scroll-view scroll-x enable-flex show-scrollbar="{{false}}" enhanced>
+			  					<view><text>#乐高</text></view>
+									<view><text>#新玩具</text></view>
+									<view><text>#新玩的的的的的的的的的的的具</text></view>
+			  				</scroll-view>
+			  			</view>
+			  			<view class="product-tittle">
+			  				<text>为什么游乐出的这款游戏家长们很值得一买？</text>
+			  			</view>
+							<view class="interaction-area">
+								<view>
+									<image src="../../resources/imgs/community/commenticon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+								<view>
+									<image src="../../resources/imgs/community/smilingicon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+							</view>
+			  		</view>
+						<view class="product-card">
+							<view class="image-area">
+						    <view class="product-image">
+			  			    <image src="../../resources/imgs/community/product2@2x.jpg" mode=""/>
+			  			  </view>
+								<view class="follow-like-box">
+									<view class="follow">	
+									  <view class="avatar-image"><image src="../../resources/imgs/profile/avatar@2x.png" mode=""/></view>
+										<view class="follow-button"><text>关注</text></view>
+									</view>
+                  <view class="like">
+										<view class="total-likes"><text>1928</text></view>
+										<view class="like-icon"><image src="../../resources/imgs/community/likeicon@2x.png" mode=""/></view>
+									</view>
+								</view>
+					    </view>
+			  			<view class="product-tag">
+			  			  <scroll-view scroll-x enable-flex show-scrollbar="{{false}}" enhanced>
+			  					<view><text>#乐高</text></view>
+									<view><text>#新玩具</text></view>
+									<view><text>#新玩的的的的的的的的的的的具</text></view>
+			  				</scroll-view>
+			  			</view>
+			  			<view class="product-tittle">
+			  				<text>为什么游乐出的这款游戏家长们很值得一买？</text>
+			  			</view>
+							<view class="interaction-area">
+								<view>
+									<image src="../../resources/imgs/community/commenticon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+								<view>
+									<image src="../../resources/imgs/community/smilingicon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+							</view>
+			  		</view>
+						<view class="product-card">
+							<view class="image-area">
+						    <view class="product-image">
+			  			    <image src="../../resources/imgs/community/product2@2x.jpg" mode=""/>
+			  			  </view>
+								<view class="follow-like-box">
+									<view class="follow">	
+									  <view class="avatar-image"><image src="../../resources/imgs/profile/avatar@2x.png" mode=""/></view>
+										<view class="follow-button"><text>关注</text></view>
+									</view>
+                  <view class="like">
+										<view class="total-likes"><text>1928</text></view>
+										<view class="like-icon"><image src="../../resources/imgs/community/likeicon@2x.png" mode=""/></view>
+									</view>
+								</view>
+					    </view>
+			  			<view class="product-tag">
+			  			  <scroll-view scroll-x enable-flex show-scrollbar="{{false}}" enhanced>
+			  					<view><text>#乐高</text></view>
+									<view><text>#新玩具</text></view>
+									<view><text>#新玩的的的的的的的的的的的具</text></view>
+			  				</scroll-view>
+			  			</view>
+			  			<view class="product-tittle">
+			  				<text>为什么游乐出的这款游戏家长们很值得一买？</text>
+			  			</view>
+							<view class="interaction-area">
+								<view>
+									<image src="../../resources/imgs/community/commenticon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+								<view>
+									<image src="../../resources/imgs/community/smilingicon@2x.png" mode=""/>
+									<text>1872</text>
+								</view>
+							</view>
+			  		</view>
+			  	</view>
+			  </scroll-view>
+		  </view>
+	  </view>
+	</view>
+</view>

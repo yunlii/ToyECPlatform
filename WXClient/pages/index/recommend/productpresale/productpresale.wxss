@@ -1,0 +1,49 @@
+/* pages/index/recommend/productpresale/productpresale.wxss */
+.product-presale .container .page-body .background {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.product-presale .container .page-body .background image {
+	width: 100%;
+}
+
+
+.product-presale .container .page-body .page-section .presale-schedule {
+	width: 686rpx;
+	height: 120rpx;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 270rpx;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.product-presale .container .page-body .page-section .presale-schedule > view > view {
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+	line-height: 12px;
+}
+.product-presale .container .page-body .page-section .presale-schedule > view .time {
+	margin-top: 12rpx;
+}
+.product-presale .container .page-body .page-section .presale-schedule .time-icon {
+	height: 48rpx;
+}
+.product-presale .container .page-body .page-section .presale-schedule .time-icon image {
+	width: 48rpx;
+	height: 48rpx;
+}
+
+
+.product-presale .container .page-body .page-section .card-list {
+	margin: 0 32rpx;
+	margin-top: 32rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

@@ -1,0 +1,164 @@
+<!--pages/wishlist/wishlist.wxml-->
+<view class="wishlist">
+	<view class="container">
+		<view class="page-body">
+			<view class="wish-card-box">
+				<scroll-view enable-flex scroll-y show-scrollbar="{{false}}" enhanced>
+					<view class="wish-card-list">
+						<view class="wish-card">
+							<view class="card-image">
+								<image src="../../resources/imgs/wishlist/dragon@2x.png" />
+							</view>
+							<view class="card-info">
+								<view class="card-title">
+									<text>Dimoo恶龙宝宝</text>
+								</view>
+								<view class="product-price">
+									<text>￥88</text>
+								</view>
+								<view class="product-popularity">
+									<text>23人想要</text>
+								</view>
+							</view>
+						</view>
+						<view class="wish-card">
+							<view class="card-image">
+								<image src="../../resources/imgs/wishlist/dragon@2x.png" />
+							</view>
+							<view class="card-info">
+								<view class="card-title">
+									<text>Dimoo恶龙宝宝</text>
+								</view>
+								<view class="product-price">
+									<text>￥88</text>
+								</view>
+								<view class="product-popularity">
+									<text>23人想要</text>
+								</view>
+							</view>
+						</view>
+						<view class="wish-card">
+							<view class="card-image">
+								<image src="../../resources/imgs/wishlist/dragon@2x.png" />
+							</view>
+							<view class="card-info">
+								<view class="card-title">
+									<text>Dimoo恶龙宝宝</text>
+								</view>
+								<view class="product-price">
+									<text>￥88</text>
+								</view>
+								<view class="product-popularity">
+									<text>23人想要</text>
+								</view>
+							</view>
+						</view>
+						<view class="wish-card">
+							<view class="card-image">
+								<image src="../../resources/imgs/wishlist/dragon@2x.png" />
+							</view>
+							<view class="card-info">
+								<view class="card-title">
+									<text>Dimoo恶龙宝宝</text>
+								</view>
+								<view class="product-price">
+									<text>￥88</text>
+								</view>
+								<view class="product-popularity">
+									<text>23人想要</text>
+								</view>
+							</view>
+						</view>
+						<view class="wish-card">
+							<view class="card-image">
+								<image src="../../resources/imgs/wishlist/dragon@2x.png" />
+							</view>
+							<view class="card-info">
+								<view class="card-title">
+									<text>Dimoo恶龙宝宝</text>
+								</view>
+								<view class="product-price">
+									<text>￥88</text>
+								</view>
+								<view class="product-popularity">
+									<text>23人想要</text>
+								</view>
+							</view>
+						</view>
+					</view>
+				</scroll-view>
+				<view class="empty-box" style="display: none;">
+							<view class="box-image">
+							  <image src="../../resources/imgs/wishlist/wishicon@2x.png" mode=""/>
+							</view>
+							<view class="box-text-wrap">
+								<view class="box-title">
+									<text>许个愿吧~</text>
+								</view>
+								<view class="box-text">
+									<text>你想要的玩具离你一点也不远</text>
+								</view>
+							</view>
+							<view class="box-button">
+								<text>寻找心愿</text>
+							</view>
+				</view>
+				<view class="share-button" bindtap="openTheShareCover">
+					<image src="../../resources/imgs/wishlist/shareicon@2x.png" mode=""/>
+				</view>
+			</view>
+			<view class="share-products" wx:if="{{shareCoverStatus}}">
+			  <view class="background" bindtap="closeTheShareCover"></view>
+				<view class="product-card">
+					<view class="card-top">
+				  <view class="avatar">
+					  <image src="../../resources/imgs/profile/avatar@2x.png" mode=""/>
+					</view>
+					<view class="profile-info">
+						<view class="card-title"><text>小宝的心愿单</text></view>
+						<view class="card-text"><text>你能帮我实现心愿嘛~</text></view>
+					</view>
+				  </view>
+				  <view class="card-middle">
+				    <image src="../../resources/imgs/wishlist/dragon@2x.png" mode="aspectFill"/>
+				  </view>
+				  <view class="card-bottom">
+				    <view class="card-redirect">
+					    <view class="redirect-text"><text>长按了解TA的心愿</text></view>
+					  	<view class="redirect-icon"><image src="../../resources/imgs/wishlist/righticon@2x.png" mode=""/></view>
+					  </view>
+					  <view class="qccode-image">
+					    <image src="../../resources/imgs/wishlist/qrcode@2x.png" mode=""/>
+					  </view>
+				  </view>
+				</view>
+				<view class="share-bar">
+					<view class="save-poster">
+					  <view class="save-poster-icon">
+						  <image src="../../resources/imgs/wishlist/savetheposter@2x.png" mode=""/>
+						</view>
+						<view class="save-poster-text">
+							<text>保存海报</text>
+						</view>
+					</view>
+					<view class="share-to-friend">
+					  <view class="share-icon">
+						  <image src="../../resources/imgs/wishlist/toWX@2x.png" mode=""/>
+						</view>
+						<view class="share-text">
+							<text>分享给好友</text>
+						</view>
+					</view>
+					<view class="share-to-friend-circle">
+					  <view class="share-icon">
+						  <image src="../../resources/imgs/wishlist/tofriendcircle@2x.png" mode=""/>
+						</view>
+						<view class="share-text">
+							<text>分享至朋友圈</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

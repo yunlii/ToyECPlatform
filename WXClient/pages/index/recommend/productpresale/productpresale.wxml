@@ -1,0 +1,73 @@
+<!--pages/index/recommend/productpresale/productpresale.wxml-->
+<view class="product-presale">
+	<view class="container">
+		<view class="page-body">
+		  <view class="background">
+			  <image src="../../../../resources/imgs/mall/background/productpresale@2x.png" mode="widthFix"/>
+			</view>
+			<view class="page-section">
+			  <view class="presale-schedule">
+					<view>
+						<view><text>今日</text></view>
+						<view class="time"><text>14:00</text></view>
+					</view>
+					<view>
+						<view><text>今日</text></view>
+						<view class="time"><text>18:30</text></view>
+					</view>
+					<view>
+						<view><text>明日</text></view>
+						<view class="time"><text>10:30</text></view>
+					</view>
+					<view>
+						<view><text>下周一</text></view>
+						<view class="time"><text>15:00</text></view>
+					</view>
+					<view class="time-icon">
+						<image src="../../../../resources/imgs/mall/icon/clockicon@2x.png" mode=""/>
+					</view>
+				</view>
+			</view>
+			<view class="page-section">
+			  <view class="card-list">
+					<productcard>
+				  <text slot="product-title">babycare洛伊积木城堡</text>
+					<text slot="discounted-price">￥149</text>
+					<text slot="price">￥245</text>
+					<text slot="sold-out">已抢77件</text>
+			    </productcard>
+			    <productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+			    <productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+			    <productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+					<productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+					<productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+			  </view>
+			</view>
+		</view>
+	</view>
+</view>

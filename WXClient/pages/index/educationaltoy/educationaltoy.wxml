@@ -1,0 +1,250 @@
+<!--pages/index/educationaltoy/educationaltoy.wxml-->
+<view class="educational-toy">
+	<view class="container">
+		<view class="page-body">
+			<view class="page-section">
+				<view class="banner-scroll">
+					<swiper autoplay="true">
+						<swiper-item>
+							<image src="../../../resources/imgs/mall/banner/recommend-banner@2x.png" mode=""/>
+						</swiper-item>
+						<swiper-item>
+							<image src="../../../resources/imgs/mall/banner/recommend-banner@2x.png" mode=""/>
+						</swiper-item>
+						<swiper-item>
+							<image src="../../../resources/imgs/mall/banner/recommend-banner@2x.png" mode=""/>
+						</swiper-item>
+					</swiper>
+				</view>
+			</view>
+			<view class="page-section">
+				<view class="education-navigation-bar">
+					<view class="enlightenment">
+						<view class="image">
+							<image src="../../../resources/imgs/mall/toeducationbar/enlightenment@2x.png" mode=""/>
+						</view>
+						<view class="name">
+							<text>早教启蒙</text>
+						</view>
+					</view>
+					<view class="children-library">
+						<view class="image">
+							<image src="../../../resources/imgs/mall/toeducationbar/childrenlibrary@2x.png" mode=""/>
+						</view>
+						<view class="name">
+							<text>童书馆</text>
+						</view>
+					</view>
+					<view class="handmade">
+						<view class="image">
+							<image src="../../../resources/imgs/mall/toeducationbar/handmade@2x.png" mode=""/>
+						</view>
+						<view class="name">
+							<text>手工益智</text>
+						</view>
+					</view>
+					<view class="building-block">
+						<view class="image">
+							<image src="../../../resources/imgs/mall/toeducationbar/buildingblock@2x.png" mode=""/>
+						</view>
+						<view class="name">
+							<text>拼搭乐园</text>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="page-section">
+				<view class="toy-classification">
+					<scroll-view enable-flex scroll-x>
+						<view class="grade-item selected-item">
+						  <view class="grade-name">
+								<text>感受世界</text>
+							</view>
+							<view class="grade">
+								<text>0-1</text>
+							</view>
+						</view>
+						<view class="grade-item">
+						  <view class="grade-name">
+								<text>感受世界</text>
+							</view>
+							<view class="grade">
+								<text>0-1</text>
+							</view>
+						</view>
+						<view class="grade-item">
+						  <view class="grade-name">
+								<text>探索世界</text>
+							</view>
+							<view class="grade">
+								<text>1-3</text>
+							</view>
+						</view>
+						<view class="grade-item">
+						  <view class="grade-name">
+								<text>对话世界</text>
+							</view>
+							<view class="grade">
+								<text>3-6</text>
+							</view>
+						</view>
+						<view class="grade-item">
+						  <view class="grade-name">
+								<text>玩转世界</text>
+							</view>
+							<view class="grade">
+								<text>6-9</text>
+							</view>
+						</view>
+						<view class="grade-item">
+						  <view class="grade-name">
+								<text>创造世界</text>
+							</view>
+							<view class="grade">
+								<text>12+</text>
+							</view>
+						</view>
+					</scroll-view>
+				</view>
+				<view class="product-bar-list">
+					<view class="empty">暂无玩具</view>
+          <view class="product-item">
+						<view class="product-image">
+							<image src="../../../resources/imgs/mall/toeducationbar/cartoy@2x.png" mode=""/>
+						</view>
+						<view class="product-info">
+							<view class="product-name">
+								<text>babycare儿童玩具惯性阻力车</text>
+							</view>
+							<view class="purchase-quantity">
+								<text>已抢77件</text>
+							</view>
+							<view class="discounts">
+								<text>新人立减80元</text>
+							</view>
+							<view class="product-price">
+								<view class="discounted-price">
+									<text>￥149</text>
+								</view>
+								<view class="price">
+									<text>￥245</text>
+								</view>
+							</view>
+						</view>
+						<view class="buy-button">
+							<text>去购买</text>
+						</view>
+					</view>
+					<view class="product-item">
+						<view class="product-image">
+							<image src="../../../resources/imgs/mall/toeducationbar/cartoy@2x.png" mode=""/>
+						</view>
+						<view class="product-info">
+							<view class="product-name">
+								<text>babycare儿童玩具惯性阻力车</text>
+							</view>
+							<view class="purchase-quantity">
+								<text>已抢77件</text>
+							</view>
+							<view class="discounts">
+								<text>新人立减80元</text>
+							</view>
+							<view class="product-price">
+								<view class="discounted-price">
+									<text>￥149</text>
+								</view>
+								<view class="price">
+									<text>￥245</text>
+								</view>
+							</view>
+						</view>
+						<view class="buy-button">
+							<text>去购买</text>
+						</view>
+					</view>
+					<view class="product-item">
+						<view class="product-image">
+							<image src="../../../resources/imgs/mall/toeducationbar/cartoy@2x.png" mode=""/>
+						</view>
+						<view class="product-info">
+							<view class="product-name">
+								<text>babycare儿童玩具惯性阻力车</text>
+							</view>
+							<view class="purchase-quantity">
+								<text>已抢77件</text>
+							</view>
+							<view class="discounts">
+								<text>新人立减80元</text>
+							</view>
+							<view class="product-price">
+								<view class="discounted-price">
+									<text>￥149</text>
+								</view>
+								<view class="price">
+									<text>￥245</text>
+								</view>
+							</view>
+						</view>
+						<view class="buy-button">
+							<text>去购买</text>
+						</view>
+					</view>
+					<view class="product-item">
+						<view class="product-image">
+							<image src="../../../resources/imgs/mall/toeducationbar/cartoy@2x.png" mode=""/>
+						</view>
+						<view class="product-info">
+							<view class="product-name">
+								<text>babycare儿童玩具惯性阻力车</text>
+							</view>
+							<view class="purchase-quantity">
+								<text>已抢77件</text>
+							</view>
+							<view class="discounts">
+								<text>新人立减80元</text>
+							</view>
+							<view class="product-price">
+								<view class="discounted-price">
+									<text>￥149</text>
+								</view>
+								<view class="price">
+									<text>￥245</text>
+								</view>
+							</view>
+						</view>
+						<view class="buy-button">
+							<text>去购买</text>
+						</view>
+					</view>
+					<view class="product-item">
+						<view class="product-image">
+							<image src="../../../resources/imgs/mall/toeducationbar/cartoy@2x.png" mode=""/>
+						</view>
+						<view class="product-info">
+							<view class="product-name">
+								<text>babycare儿童玩具惯性阻力车</text>
+							</view>
+							<view class="purchase-quantity">
+								<text>已抢77件</text>
+							</view>
+							<view class="discounts">
+								<text>新人立减80元</text>
+							</view>
+							<view class="product-price">
+								<view class="discounted-price">
+									<text>￥149</text>
+								</view>
+								<view class="price">
+									<text>￥245</text>
+								</view>
+							</view>
+						</view>
+						<view class="buy-button">
+							<text>去购买</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

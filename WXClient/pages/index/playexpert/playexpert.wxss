@@ -1,0 +1,89 @@
+/* pages/index/playexpert/playexpert.wxss */
+.playexpert .container .sub-page-body .page-section .product-banner swiper swiper-item image{
+	width: 710rpx;
+	height: 310rpx;
+}
+
+
+.playexpert .container .sub-page-body .page-section .navigation-bar {
+	width: 692rpx;
+	margin: auto;
+}
+.playexpert .container .sub-page-body .page-section .navigation-bar .product-category {
+	margin-top: 46rpx;
+	font-size: 14px;
+	color: #999999;
+	display: flex;
+	justify-content: space-between;
+}
+.playexpert .container .sub-page-body .page-section .navigation-bar .product-category .selected-item {
+	font-size: 14px;
+	color: #101010;
+}
+
+
+.playexpert .container .sub-page-body .page-section .navigation-bar .products-showcase {
+	margin-top: 30rpx;
+}
+.playexpert .container .sub-page-body .page-section .navigation-bar .products-showcase scroll-view {
+	height: 82rpx;
+  display: flex;
+}
+.playexpert .container .sub-page-body .page-section .navigation-bar .products-showcase scroll-view view {
+	height: 84rpx;
+	margin-right: 54rpx;
+}
+.playexpert .container .sub-page-body .page-section .navigation-bar .products-showcase scroll-view view image {
+	width: 84rpx;
+	height: 84rpx;
+}
+
+
+.playexpert .container .sub-page-body .page-section .product-card-list {
+	width: 686rpx;
+	margin: 30rpx auto 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card {
+	width: 326rpx;
+	height: 514rpx;
+	border-radius: 4px;
+	box-shadow:  0px 4px 8px 0px rgba(0, 0, 0, 8%);
+	background-color: white;
+	margin-bottom: 32rpx;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card .product-image image{
+	width: 326rpx;
+	height: 326rpx;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card .product-info {
+	width: 100%;
+	font-size: 14px;
+	padding: 0 16rpx;
+	box-sizing: border-box;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card .product-info .product-title {
+	white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card .product-info .product-price {
+	margin-top: 16rpx;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card .product-info .product-price .discounted-price{
+	color: #FFA911;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card .product-info .product-price .price {
+	background-image: linear-gradient(to right, transparent 0% 10%, black 0% 100%);
+  background-size: 100% 1px;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card .product-info .sold-out {
+	margin-top: 16rpx;
+}
+.playexpert .container .sub-page-body .page-section .product-card-list .product-card .product-info .sold-out text {
+	color: #999999;
+}

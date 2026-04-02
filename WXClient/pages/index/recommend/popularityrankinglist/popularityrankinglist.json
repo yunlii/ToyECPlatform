@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "bestproductslist": "./bestproductslist/bestproductslist",
+    "brandlist": "./brandlist/brandlist"
+  },
+  "navigationBarTitleText": "人气榜单"
+}

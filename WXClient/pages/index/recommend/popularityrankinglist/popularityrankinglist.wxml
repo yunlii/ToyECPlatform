@@ -1,0 +1,30 @@
+<!--pages/index/recommend/popularityrankinglist/popularityrankinglist.wxml-->
+<view class="popularity-ranking-list">
+	<view class="container">
+		<view class="page-body">
+		  <view class="background">
+			  <image src="../../../../resources/imgs/mall/background/popularitygoodslist@2x.png" mode="widthFix"/>
+			</view>
+			<view class="goods-ranking-area">
+			  <view class="switch-component">
+					<view class="{{selectStatus == 1 ? 'selected-list' : ''}}" data-status="1" bindtap="switchClick">
+					  <view class="list-name"><text>好物榜</text></view>
+						<view class="bar" hidden="{{selectStatus != 1}}"><image src="../../../../resources/imgs/mall/navigationbar/redretangle@2x.png" mode=""/></view>
+					</view>
+					<view class="{{selectStatus == 2 ? 'selected-list' : ''}}" data-status="2" bindtap="switchClick">
+					  <view class="list-name"><text>品牌榜</text></view>
+						<view class="bar" hidden="{{selectStatus != 2}}"><image src="../../../../resources/imgs/mall/navigationbar/redretangle@2x.png" mode=""/></view>
+					</view>
+				</view>
+			  <view class="list">
+				  <view hidden="{{selectStatus != 1}}">
+					  <bestproductslist></bestproductslist>
+				  </view>
+				  <view hidden="{{selectStatus != 2}}">
+						<brandlist></brandlist>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

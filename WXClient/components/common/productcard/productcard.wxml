@@ -1,0 +1,16 @@
+<!--components/common/productcard/productcard.wxml-->
+<view class="product-card">
+	<view class="product-image">
+		<image src="../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+	</view>
+	<view class="product-info">
+		<view class="product-title"><slot name="product-title"></slot></view>
+			<view class="product-price">
+				<view class="discounted-price"><slot name="discounted-price"></slot></view>
+				<view class="price"><slot name="price"></slot></view>
+			</view>
+			<view class="sold-out">
+				<slot name="sold-out"></slot>
+			</view>
+	</view>
+</view>

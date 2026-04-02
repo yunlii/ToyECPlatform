@@ -1,0 +1,108 @@
+<!--pages/index/playexpert/playexpert.wxml-->
+<view class="playexpert">
+  <view class="container">
+  <view class="sub-page-body">
+    <view class="page-section">
+      <view class="product-banner">
+        <swiper autoplay="true">
+					<swiper-item>
+						<image src="../../../resources/imgs/mall/banner/recommend-banner@2x.png" mode="aspectFill"/>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../../resources/imgs/mall/banner/recommend-banner@2x.png" mode="aspectFill"/>
+					</swiper-item>
+					<swiper-item>
+						<image src="../../../resources/imgs/mall/banner/recommend-banner@2x.png" mode="aspectFill"/>
+					</swiper-item>
+        </swiper>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="navigation-bar">
+        <view class="product-category">
+          <view class="selected-item"><text>潮玩</text></view>
+          <view><text>手办</text></view>
+          <view><text>盲盒</text></view>
+          <view><text>人偶</text></view>
+          <view><text>模型</text></view>
+          <view><text>VR</text></view>
+        </view>
+        <view class="products-showcase">
+          <scroll-view enable-flex scroll-x>
+            <view><image src="../../../resources/imgs/mall/toproducticon/productavatar@2x.png" mode=""/></view>
+            <view><image src="../../../resources/imgs/mall/toproducticon/productavatar@2x.png" mode=""/></view>
+            <view><image src="../../../resources/imgs/mall/toproducticon/productavatar@2x.png" mode=""/></view>
+            <view><image src="../../../resources/imgs/mall/toproducticon/productavatar@2x.png" mode=""/></view>
+            <view><image src="../../../resources/imgs/mall/toproducticon/productavatar@2x.png" mode=""/></view>
+            <view><image src="../../../resources/imgs/mall/toproducticon/productavatar@2x.png" mode=""/></view>
+          </scroll-view>
+        </view>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="product-card-list">
+		    <view class="product-card">
+			<view class="product-image">
+				<image src="../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-title"><text>babycare洛伊积木城堡</text></view>
+					<view class="product-price">
+						<text class="discounted-price">￥149</text>
+						<text class="price">￥245</text>
+					</view>
+					<view class="sold-out">
+						<text>已抢77件</text>
+					</view>
+			</view>
+		    </view>
+        <view class="product-card">
+			<view class="product-image">
+				<image src="../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-title"><text>babycare洛伊积木城堡</text></view>
+					<view class="product-price">
+						<text class="discounted-price">￥149</text>
+						<text class="price">￥245</text>
+					</view>
+					<view class="sold-out">
+						<text>已抢77件</text>
+					</view>
+			</view>
+		    </view>
+        <view class="product-card">
+			<view class="product-image">
+				<image src="../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-title"><text>babycare洛伊积木城堡</text></view>
+					<view class="product-price">
+						<text class="discounted-price">￥149</text>
+						<text class="price">￥245</text>
+					</view>
+					<view class="sold-out">
+						<text>已抢77件</text>
+					</view>
+			</view>
+		    </view>
+        <view class="product-card">
+			<view class="product-image">
+				<image src="../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-title"><text>babycare洛伊积木城堡</text></view>
+					<view class="product-price">
+						<text class="discounted-price">￥149</text>
+						<text class="price">￥245</text>
+					</view>
+					<view class="sold-out">
+						<text>已抢77件</text>
+					</view>
+			</view>
+		    </view>
+	    </view>
+    </view>
+  </view>
+</view>
+</view>

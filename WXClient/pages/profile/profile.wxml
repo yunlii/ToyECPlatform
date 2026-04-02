@@ -1,0 +1,54 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile-page">
+	<view class="container">
+		<scroll-view scroll-y show-scrollbar="{{false}}" enhanced>
+	    <view class="page-body">
+	      <view class="page-section">
+		      <view class="background-image">
+		      	<image src="../../resources/imgs/profile/backgroundbar@2x.png" mode="widthFix"/>
+		      </view>
+	      </view>
+	      <view class="page-section personal-container">
+		      <view class="personal-info">
+		  <view class="name">
+		    <text>Call Me Big Toy</text>
+		  </view>
+      <view class="brief-introduction">
+		    <text>简单玩乐 童心未泯</text>
+		  </view>
+			<view class="follows-info"> 
+				<view class="fans">120  粉丝</view>
+				<view class="follows">48  关注</view>
+			</view>
+			<view class="avatar">
+				<image src="../../resources/imgs/profile/avatar@2x.png" mode=""/>
+			</view>
+		      </view>
+		      <view class="dynamic-info, navigationbar-container">
+		<view class="navigationbar">
+      <view class="{{selectStatus == 1 ? 'selected-item' : ''}}, item" data-status="1" bindtap="testclick">
+        <text>小视频 3</text>
+        <image hidden="{{selectStatus != 1}}" src="./../../resources/imgs/mall/navigationbar/retangle@2x.png" mode="aspectFill"/>
+      </view>
+      <view class="{{selectStatus == 2 ? 'selected-item' : ''}}, item" data-status="2" bindtap="testclick">
+        <text>动态 4</text>
+        <image hidden="{{selectStatus != 2}}" src="./../../resources/imgs/mall/navigationbar/retangle@2x.png" mode="aspectFill"/>
+      </view>
+      <view class="{{selectStatus == 3 ? 'selected-item' : ''}}, item" data-status="3" bindtap="testclick">
+        <text>喜欢 12</text>
+        <image hidden="{{selectStatus != 3}}" src="./../../resources/imgs/mall/navigationbar/retangle@2x.png"/>
+      </view>
+    </view>
+		<view class="page-section media-container">
+      <view class="sub-pages">
+        <view hidden="{{selectStatus != 1}}"><shortvideo /></view>
+        <view hidden="{{selectStatus != 2}}"><trends /></view>
+        <view hidden="{{selectStatus != 3}}"><favorites /></view>
+      </view>
+		</view>
+	        </view>
+	      </view>		
+	    </view>
+	  </scroll-view>
+	</view>
+</view>

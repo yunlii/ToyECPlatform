@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "productcard": "../../../../components/common/productcard/productcard"
+  },
+  "navigationBarTitleText": "二手专区"
+}

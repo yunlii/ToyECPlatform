@@ -1,0 +1,31 @@
+<!--pages/profile/shortvideo/shortvideo.wxml-->
+<view class="shortvideo">
+	<view class="container">
+	  <view class="sub-page-body">
+		  <view class="sub-page-section">
+			  <view class="short-video-list">
+				<view class="short-video-item">
+				  <view class="video-cover"><image src="../../../resources/imgs/profile/video1@2x.png" mode=""/></view>
+				  <view class="video-info"><text>8K+喜欢</text></view>
+				</view>
+				<view class="short-video-item">
+				  <view class="video-cover"><image src="../../../resources/imgs/profile/video1@2x.png" mode=""/></view>
+				  <view class="video-info"><text>8K+喜欢</text></view>
+				</view>
+				<view class="short-video-item">
+				  <view class="video-cover"><image src="../../../resources/imgs/profile/video1@2x.png" mode=""/></view>
+				  <view class="video-info"><text>8K+喜欢</text></view>
+				</view>
+				<view class="short-video-item">
+				  <view class="video-cover"><image src="../../../resources/imgs/profile/video1@2x.png" mode=""/></view>
+				  <view class="video-info"><text>8K+喜欢</text></view>
+				</view>
+				<view class="short-video-item">
+				  <view class="video-cover"><image src="../../../resources/imgs/profile/video1@2x.png" mode=""/></view>
+				  <view class="video-info"><text>8K+喜欢</text></view>
+				</view>
+			  </view>
+		  </view>
+	  </view>
+	</view>
+</view>

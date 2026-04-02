@@ -1,0 +1,107 @@
+<!--pages/index/recommend/popularityrankinglist/bastproductslist/bastproductslist.wxml-->
+<view class="bestproductslist">
+	<view class="none" hidden="true"><text>无</text></view>
+	<view class="goods-ranking-list">
+			<view class="goods-item">
+			<view class="ranking-icon">
+				<image src="../../../../../resources/imgs/mall/icon/1@2x.png" mode=""/>
+			</view>
+			<view class="product-image">
+				<image src="../../../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-name"><text>Dimoo太空旅行系列</text></view>
+				<view class="sold-quantity"><text>已售1800件</text></view>
+				<view class="price">
+				  <view class="discounted-price">
+					  <text>￥59</text>
+				  </view>
+					<view class="real-price">
+					  <text>￥120</text>
+				  </view>
+				</view>
+			</view>
+		</view>
+		<view class="goods-item">
+			<view class="ranking-icon">
+				<image src="../../../../../resources/imgs/mall/icon/1@2x.png" mode=""/>
+			</view>
+			<view class="product-image">
+				<image src="../../../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-name"><text>Dimoo太空旅行系列</text></view>
+				<view class="sold-quantity"><text>已售1800件</text></view>
+				<view class="price">
+				  <view class="discounted-price">
+					  <text>￥59</text>
+				  </view>
+					<view class="real-price">
+					  <text>￥120</text>
+				  </view>
+				</view>
+			</view>
+		</view>
+		<view class="goods-item">
+			<view class="ranking-icon">
+				<image src="../../../../../resources/imgs/mall/icon/1@2x.png" mode=""/>
+			</view>
+			<view class="product-image">
+				<image src="../../../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-name"><text>Dimoo太空旅行系列</text></view>
+				<view class="sold-quantity"><text>已售1800件</text></view>
+				<view class="price">
+				  <view class="discounted-price">
+					  <text>￥59</text>
+				  </view>
+					<view class="real-price">
+					  <text>￥120</text>
+				  </view>
+				</view>
+			</view>
+		</view>
+		<view class="goods-item">
+			<view class="ranking-icon">
+				<image src="../../../../../resources/imgs/mall/icon/1@2x.png" mode=""/>
+			</view>
+			<view class="product-image">
+				<image src="../../../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-name"><text>Dimoo太空旅行系列</text></view>
+				<view class="sold-quantity"><text>已售1800件</text></view>
+				<view class="price">
+				  <view class="discounted-price">
+					  <text>￥59</text>
+				  </view>
+					<view class="real-price">
+					  <text>￥120</text>
+				  </view>
+				</view>
+			</view>
+		</view>
+		<view class="goods-item">
+			<view class="ranking-icon">
+				<image src="../../../../../resources/imgs/mall/icon/1@2x.png" mode=""/>
+			</view>
+			<view class="product-image">
+				<image src="../../../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+			</view>
+			<view class="product-info">
+				<view class="product-name"><text>Dimoo太空旅行系列</text></view>
+				<view class="sold-quantity"><text>已售1800件</text></view>
+				<view class="price">
+				  <view class="discounted-price">
+					  <text>￥59</text>
+				  </view>
+					<view class="real-price">
+					  <text>￥120</text>
+				  </view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+

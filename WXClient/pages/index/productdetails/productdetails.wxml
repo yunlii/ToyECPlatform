@@ -1,0 +1,102 @@
+<!--pages/index/productdetails/productdetails.wxml-->
+<view class="product-details">
+	<view class="container">
+		<view class="page-body">
+			<view class="page-section">
+				<view class="product-image-swiper">
+					<swiper>
+					  <swiper-item>
+							<view class="product-image">
+								<image src="../../../resources/imgs/mall/background/minion@2x.png" mode="heightFix"/>
+							</view>
+						</swiper-item>
+					</swiper>
+				</view>
+			</view>
+			<view class="page-section">
+        <view class="product-show-area">
+				  <view class="none">
+					  <text>无</text>
+				  </view>
+					<view class="product-name">
+						<text>{{productDetails.name}}</text>
+					</view>
+					<view class="price-and-quantity">
+					  <view class="price"><text>￥{{productDetails.discountedprice}}</text></view>
+						<view class="sale-quantity"><text>已售￥{{productDetails.price}}件</text></view>
+					</view>
+				  <view class="recommend">
+				  	<view class="text-area">
+							<text>推荐理由：每一款都是精品，更有惊喜可期！来吧，给生活创造一个“盲”里偷闲的理由~</text>
+						</view>
+						<view class="score">
+							<view class="score-icon">
+								<view><image src="../../../resources/imgs/mall/icon/star@2x.png" mode=""/></view>
+								<view><image src="../../../resources/imgs/mall/icon/star@2x.png" mode=""/></view>
+								<view><image src="../../../resources/imgs/mall/icon/star@2x.png" mode=""/></view>
+								<view><image src="../../../resources/imgs/mall/icon/star@2x.png" mode=""/></view>
+								<view><image src="../../../resources/imgs/mall/icon/star@2x.png" mode=""/></view>
+							</view>
+							<view class="score-text">
+								<text>推荐8分</text>
+							</view>
+						</view>
+				  </view>
+				  <view class="product-brand">
+				  	<view class="brand-info">
+							<view class="brand-image"><image src="../../../resources/imgs/mall/brands/popmart@2x.png" mode=""/></view>
+							<view class="brand-name"><text>POP Mart</text></view>
+						</view>
+						<view class="brand-page-button">
+							<text>进入品牌</text>
+						</view>
+				  </view>
+					<view class="player-show">
+							<view class="area-name">
+								<text>玩家秀</text>
+							</view>
+							<view class="image-list">
+								<view>
+									<image src="../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+								</view>
+								<view>
+									<image src="../../../resources/imgs/mall/products/fatherchristmas@2x.png" mode=""/>
+								</view>
+							</view>
+					</view>
+					<view class="recommended-toys">
+						<view class="area-name">
+							<text>推荐玩具</text>
+						</view>
+						<view class="image-list">
+              <productcard>
+							  <text slot="product-title">小黄人限量乐高</text>
+								<text slot="discounted-price">￥59</text>
+								<text slot="price">￥120</text>
+								<text slot="sold-out">已抢77件</text>
+							</productcard>
+							<productcard>
+							  <text slot="product-title">小黄人限量乐高</text>
+								<text slot="discounted-price">￥59</text>
+								<text slot="price">￥120</text>
+								<text slot="sold-out">已抢77件</text>
+							</productcard>
+							<productcard>
+							  <text slot="product-title">小黄人限量乐高</text>
+								<text slot="discounted-price">￥59</text>
+								<text slot="price">￥120</text>
+								<text slot="sold-out">已抢77件</text>
+							</productcard>
+							<productcard>
+							  <text slot="product-title">小黄人限量乐高</text>
+								<text slot="discounted-price">￥59</text>
+								<text slot="price">￥120</text>
+								<text slot="sold-out">已抢77件</text>
+							</productcard>
+						</view>
+						</view>
+				  </view>
+			</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,112 @@
+<!--pages/index/recommend/secondhandgoods/secondhandgoods.wxml-->
+<view class="secondhand-goods">
+	<view class="container">
+		<view class="page-body">
+		  <view class="background">
+			  <image src="../../../../resources/imgs/mall/background/secondhandgoods@2x.png" mode="widthFix"/>
+			</view>
+			<view class="page-section">
+				<view class="recommend-card">
+			<view class="card-top">
+				<view class="card-title">
+					<text>今日捡漏</text>
+				</view>
+			</view>
+			<view class="product-list">
+			  <scroll-view class="scroll-bar" scroll-x="true" enable-flex="true">
+			  	<view class="product-item">
+					<view>
+						<image src="../../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
+					</view>
+					<view class="product-title">
+						<text>益智屋</text>
+					</view>
+					<view class="product-price">
+						<text class="discounted-price">￥189</text>
+						<text class="price">￥200</text>
+					</view>
+			  	</view>
+			  	<view class="product-item">
+					<view>
+						<image src="../../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
+					</view>
+					<view class="product-title">
+						<text>益智屋</text>
+					</view>
+					<view class="product-price">
+						<text class="discounted-price">￥189</text>
+						<text class="price">￥200</text>
+					</view>
+			  	</view>
+			  	<view class="product-item">
+					<view>
+						<image src="../../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
+					</view>
+					<view class="product-title">
+						<text>益智屋</text>
+					</view>
+					<view class="product-price">
+						<text class="discounted-price">￥189</text>
+						<text class="price">￥200</text>
+					</view>
+			  	</view>
+			  	<view class="product-item">
+					<view>
+						<image src="../../../../resources/imgs/mall/products/housetoy@2x.png" mode=""/>
+					</view>
+					<view class="product-title">
+						<text>益智屋</text>
+					</view>
+					<view class="product-price">
+						<text class="discounted-price">￥189</text>
+						<text class="price">￥200</text>
+					</view>
+			  	</view>
+		    </scroll-view>
+	    </view>
+		</view>
+			</view>
+			<view class="page-section">
+			  <view class="card-list">
+					<productcard>
+				  <text slot="product-title">babycare洛伊积木城堡</text>
+					<text slot="discounted-price">￥149</text>
+					<text slot="price">￥245</text>
+					<text slot="sold-out">已抢77件</text>
+			    </productcard>
+			    <productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+			    <productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+			    <productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+					<productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+					<productcard>
+			      <text slot="product-title">babycare洛伊积木城堡</text>
+			    	<text slot="discounted-price">￥149</text>
+			    	<text slot="price">￥245</text>
+			    	<text slot="sold-out">已抢77件</text>
+			    </productcard>
+			  </view>
+			</view>
+		</view>
+	</view>
+</view>
+

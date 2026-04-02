@@ -1,0 +1,220 @@
+/* pages/community/community.wxss */
+.community .container .page-body .navigation-area {
+	height: 168rpx;
+	width: 100vw;
+	padding: 0 28rpx;
+	background-color: white;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.community .container .page-body .page-section .navigation-bar {
+	padding-top: 10rpx;
+	display: flex;
+	justify-content: space-between;
+}
+.community .container .page-body .page-section .navigation-bar .left-area {
+	
+}
+.community .container .page-body .page-section .navigation-bar .left-area image {
+	width: 44rpx;
+	height: 44rpx;
+}
+.community .container .page-body .page-section .navigation-bar .middle-area {
+	width: 296rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.community .container .page-body .page-section .navigation-bar .middle-area view text {
+	font-size: 14px;
+	color: #999999;
+}
+.community .container .page-body .page-section .navigation-bar .middle-area .selected_item text {
+	font-size: 18px;
+	font-weight: 700;
+	color: #2E363B;
+}
+.community .container .page-body .page-section .navigation-bar .right-area image {
+	width: 44rpx;
+	height: 44rpx;
+}
+
+
+.community .container .page-body .page-section .filtration-bar {
+	height: 48rpx;
+	padding: 28rpx 0;
+	position: relative;
+}
+.community .container .page-body .page-section .filtration-bar scroll-view {
+  width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.community .container .page-body .page-section .filtration-bar scroll-view view {
+	font-size: 28rpx;
+	color: #ABAFB1;
+	height: 48rpx;
+	background-color: #F7F7F7;
+	border-radius: 20px;
+	padding: 0 20rpx;
+	margin-right: 20rpx;
+	white-space: nowrap;
+	box-sizing: content-box;
+	text-align: center;
+	line-height: 48rpx;
+}
+.community .container .page-body .page-section .filtration-bar .selected_item {
+	background-color: #FFC45B;
+}
+.community .container .page-body .page-section .filtration-bar .selected_item text {
+	color: #101010;
+} 
+.community .container .page-body .page-section .filtration-bar .block-box {
+	width: 50rpx;
+	height: 48rpx;
+	background-color: white;
+}
+.community .container .page-body .page-section .filtration-button {
+	width: 50rpx;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: -1rpx;
+	box-sizing: border-box;
+}
+.community .container .page-body .page-section .filtration-button image {
+	width: 44rpx;
+	height: 40rpx;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.community .container .page-body .card-area {
+	padding: 0 24rpx;
+}
+.community .container .page-body .card-area scroll-view {
+	height: 100vh;
+}
+.community .container .page-body .card-area scroll-view .products-card-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 188rpx; 
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card {
+	width: 340rpx;
+	height: 654rpx;
+	margin-bottom: 20rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area {
+	position: relative;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .product-image {
+	height: 448rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .product-image image{
+	width: 340rpx;
+	height: 448rpx;
+	border-radius: 12px;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box {
+	width: 280rpx;
+	height: 60rpx;
+	background-color: rgba(0, 0, 0, 20%);
+	border-radius: 70px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 170rpx;
+	bottom: 30rpx;
+	transform: translate(-50%, 0);
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box .follow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box .follow .avatar-image {
+	margin-right: 10rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box .follow .avatar-image  image {
+	width: 60rpx;
+	height: 60rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box .follow .follow-button {
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 12px;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box .like {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box .like .like-icon {
+	width: 30rpx;
+	height: 30rpx;
+	margin-left: 10rpx;
+	margin-right: 20rpx;
+	text-align: center;
+  line-height: 30rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box .like .total-likes {
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 12px;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .image-area .follow-like-box .like .like-icon image {
+	width: 30rpx;
+	height: 30rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .product-tag  {
+	margin-top: 14rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .product-tag scroll-view {
+	height: 40rpx;
+	display: flex;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .product-tag scroll-view view {
+	height: 40rpx;
+	padding: 0 16rpx;
+	border-radius: 20px;
+	background-color: #EAEAEA;
+	font-size: 9px;
+	color: #ABAFB1;
+	text-align: center;
+	line-height: 40rpx;
+	margin-right: 12rpx;
+	white-space: nowrap;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .product-tittle {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 40rpx;
+	color: #101010;
+	margin-top: 12rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .interaction-area {
+	display: flex;
+	margin-top: 14rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .interaction-area view {
+	margin-right: 38rpx;
+	display: flex;
+	justify-content: center;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .interaction-area view image {
+	width: 36rpx;
+	height: 40rpx;
+	margin-right: 10rpx;
+}
+.community .container .page-body .card-area scroll-view .products-card-list .product-card .interaction-area view text {
+	font-size: 14px;
+	color: #ABAFB1;
+}

@@ -1,0 +1,42 @@
+/* pages/profile/shortvideo/shortvideo.wxss */
+.shortvideo .container {
+	width: 100%;
+}
+.shortvideo .sub-page-body .sub-page-section .short-video-list {
+	margin-top: 40rpx;
+}
+.shortvideo .sub-page-body .sub-page-section .short-video-list .short-video-item{
+	position: relative;
+	margin-bottom: 32rpx;
+}
+.shortvideo .sub-page-body .sub-page-section .short-video-list .video-cover {
+	width: 326rpx;
+	height: 326rpx;
+}
+.shortvideo .sub-page-body .sub-page-section .short-video-list .video-cover image{
+	width: 326rpx;
+	height: 326rpx;
+}
+.shortvideo .sub-page-body .sub-page-section .short-video-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.shortvideo .sub-page-body .sub-page-section .short-video-list .video-info {
+	width: 126rpx;
+	height: 44rpx;
+	background-color: rgba(255, 255, 255, 85%);
+	position: absolute;
+	left: 18rpx;
+	bottom: 14rpx;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 44rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.shortvideo .sub-page-body .sub-page-section .short-video-list .video-info text {
+	font-size: 12px;
+	color: #FFA911;
+}

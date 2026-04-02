@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "favorites": "./favorites/favorites",
+    "shortvideo": "./shortvideo/shortvideo",
+    "trends": "./trends/trends"
+  },
+  "navigationBarTitleText" : "我的",
+  "navigationStyle": "custom"
+}

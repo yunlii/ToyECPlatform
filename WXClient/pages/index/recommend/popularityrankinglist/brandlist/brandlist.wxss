@@ -1,0 +1,45 @@
+/* pages/index/recommend/popularityrankinglist/brandlist/brandlist.wxss */
+.bestbrandslist .brand-ranking-list {
+	margin-top: 48rpx;
+	overflow: hidden;
+}
+
+
+.bestbrandslist .brand-ranking-list .brand-item {
+	margin-bottom: 48rpx;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.bestbrandslist .brand-ranking-list .brand-item .ranking-icon {
+  height: 82rpx;
+}
+.bestbrandslist .brand-ranking-list .brand-item .ranking-icon image {
+	width: 58rpx;
+	height: 82rpx;
+}
+.bestbrandslist .brand-ranking-list .brand-item .brand-image {
+	height: 120rpx;
+	margin-left: 36rpx;
+}
+.bestbrandslist .brand-ranking-list .brand-item .brand-image image {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 6px;
+}
+.bestbrandslist .brand-ranking-list .brand-item .brand-info {
+	margin-left: 36rpx;
+}
+.bestbrandslist .brand-ranking-list .brand-item .brand-info .brand-name {
+	font-size: 14px;
+	color: #101010;
+}
+.bestbrandslist .brand-ranking-list .brand-item .brand-info .brand-data {
+	font-size: 12px;
+	color: #999999;
+	margin-top: 16rpx;
+	display: flex;
+}
+.bestbrandslist .brand-ranking-list .brand-item .brand-info .brand-data .likes {
+  margin-left: 20rpx;
+}
